@@ -1,0 +1,73 @@
+body {
+  background-color: dodgerblue;
+}
+
+svg{
+  max-width: 300px;
+  height: auto;
+}
+
+/* LockNKey1 */
+
+.keyhole {
+  fill: white;
+}
+
+.top-key {
+  fill: ffffff;
+  animation: blink 2.4s infinite;
+}
+
+.bottom-key {
+  fill: ffffff;
+  animation: blink 2.4s infinite;
+}
+
+
+/* LockNKey2 */
+
+.star2 {
+	fill: #ff9966;
+}
+
+.keyhole2 {
+  fill: #ff471a;
+  filter: blur(2px);
+}
+
+.top-key2 {
+  filter: hue-rotate(90deg);
+}
+
+.bottom-key2 {
+	filter: hue-rotate(45deg);
+}
+	
+
+/* LockNKey3 */
+
+.star3 {
+	filter: drop-shadow(16px 16px 20px red) invert(75%);
+}
+
+.keyhole3 {
+	filter: grayscale(60%);
+}
+
+
+.top-key3 {
+	filter: sepia(50%);
+}
+
+.bottom-key3 {
+	filter: sepia(50%);
+}
+/* Keyframe Animation */
+
+@keyframes blink {
+	to {
+		fill: black;
+		opacity: 0;
+	}
+}
+
