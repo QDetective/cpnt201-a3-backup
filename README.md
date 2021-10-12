@@ -5,7 +5,7 @@ SVG Assignment Logo
 By Jean-Marc Der
 
 Github Repo: https://github.com/QDetective/cpnt201-a3-backup
-Github Page:
+Github Page: https://qdetective.github.io/cpnt201-a3-backup/
 
 Attribution:
 Figma for logo design
